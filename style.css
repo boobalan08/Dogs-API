@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --blue-color: #3a4660;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(https://img.freepik.com/free-photo/abstract-luxury-light-cream-beige-brown-like-cotton-silk-texture-pattern-background_1258-63823.jpg?w=900&t=st=1667288312~exp=1667288912~hmac=462aff8867360a0ea5ae133152291eef222e02fb20fac733a5b6b27d7a542b64);
+}
+
+#heading{
+    color: #3a4660;
+    font-weight: 800;
+    margin: 5px;
+    padding: 5px;
+}
+
+#image{
+    width: 70vw;
+    height: 70vh;
+    border-radius: 10px;
+    border: 2px solid #3a4660;
+}
+
+#btn{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+    width: 600px;
+    background-color: var(--blue-color);
+    color:#fff;
+}
